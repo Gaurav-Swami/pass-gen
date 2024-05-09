@@ -107,7 +107,7 @@ const PassBox = () => {
     setStatus("\u2713" + " Copied!");
   };
 
-  const copyClass = `bg-${color}-300  py-2 w-[162px] font-bold hover:bg-green-100 transition-all rounded-full`;
+  const copyClass = `bg-green-300  py-2 w-[162px] font-bold hover:bg-green-100 transition-all rounded-full`;
 
   return (
     <div className="w-[100%] lg:w-[912px] md:w-[90%]   bg-slate-800 rounded-2xl">
